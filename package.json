@@ -1,0 +1,19 @@
+{
+  "name": "bloom-filter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/g-hyoga/bloom-filter.git",
+  "author": "g-hyoga <hyoga0216@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "watch": "webpack-dev-server --mode=development"
+  },
+  "dependencies": {
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
